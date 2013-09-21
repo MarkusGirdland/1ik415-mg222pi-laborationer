@@ -16,5 +16,42 @@
             <li><a href="https://c9.io/markusgirdland/1ik415-mg222pi-laborationer/workspace/pages/laborationer.html">Laborationer</a></li>
             <li><a href="https://c9.io/markusgirdland/1ik415-mg222pi-laborationer/workspace/pages/kontakt.html">Kontakt</a></li>
         </ul>
+        
+        <h2 id="Formulär">Formulär</h2>
+        
+        <h3 id="Kontakt">Kontakta mig!</h3>
+        
+        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST" id="userform">
+            <fieldset>
+                <legend>Allmän Information</legend>
+                    <label for="typeOfErrand" >Ärendetyp</label>
+                        <select name="Type" id="typeOfErrand">
+                            <option value="Fråga" selected>Fråga</option>
+                            <option value="Förslag">Förslag</option>
+                            <option value="Rapportera fel">Rapportera fel</option>
+                        </select>
+                        <br />
+                        <br />
+                    <label>Kön:</label>
+                        <input type="radio" name="Sex" value="M" /> Man
+                        <input type="radio" name="Sex" value="F" /> Kvinna
+            </fieldset>
+            <fieldset>
+                <legend>Personlig Information</legend>
+                    <p>Vad är ditt namn?</p> 
+                    <input type="text" name="Name" />
+                    <p>Vad vill du meddela mig?</p>
+                    <textarea name="message" rows="5" cols="30" form="userform">Skriv ditt meddelande. . .</textarea>
+            </fieldset>    
+            
+            
+            
+            <input type="submit" value="Skicka!" />
+            
+        </form>
+        
+        
+        
+        
     </body>
 </html>
