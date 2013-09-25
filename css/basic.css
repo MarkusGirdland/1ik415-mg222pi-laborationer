@@ -1,27 +1,37 @@
 /* Layout */
 
 #navigation {
-    border: 2px solid blue;
+    border: 5px inset #94A9BF;
+    font: verdana;
     width: 200px;
     float: left;
 }
 
+
 #content {
-    border: 2px solid red;
-    margin-left: 204px;
+    border: 2px solid #91BFB4;
+    margin-left: 220px;
     width: 75%;
+    background: #D1FFF4;
 }
 
 #container {
-    background-color: #CCC;
     overflow: auto;
     max-width: 960px;
     margin: 0 auto;
 }
 
 #top {
-    float: middle;
+    background: #38A68A;
 }
 
 
 /* Typografi */
+
+/* Färger
+
+Content border: #91BFB4
+Navigation border: #94A9BF
+Background top: #38A68A
+Main background: #D1FFF4
+*/
