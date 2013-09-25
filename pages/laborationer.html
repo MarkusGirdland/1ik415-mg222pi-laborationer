@@ -3,93 +3,102 @@
     <head>
             
         <meta charset="utf-8"/>
+        <link rel="Stylesheet" href="../css/basic.css" />
         <title>Markus Girdlands Laborationer</title>
             
     </head>
     
     <body>
-        <h1>Laborationer</h1>
-        <h3>Navigering</h3>
-        <ul>
-            <li><a href="../Index.html">Start</a></li>
-            <li><a href="presentation.html">Presentation</a></li>
-            <li><a href="laborationer.html">Laborationer</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
+        <div id="container">
+            <div id="top">
+                <h1>Laborationer</h1>
+            </div>
+            
+            <div id="navigation">
+            <h3>Navigering</h3>
+                <ul>
+                    <li><a href="../Index.html">Start</a></li>
+                    <li><a href="presentation.html">Presentation</a></li>
+                    <li><a href="laborationer.html">Laborationer</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+            
+            <div id="content">
+                <h2>Webbteknisk Introduktion</h2>
+                <ul>
+                    <li><a href="laborationer.html#Laboration-1">Laboration 1</a></li>
+                </ul>
+                
+                <h3 id="Tabellen">Resultat</h3>         <!-- Tabell -->
+                
+                <table border='1'>
+                    <thead>
+                        <tr>
+                            <th>Laboration</th>
+                            <th>Uppgift</th>
+                            <th>Status</th>
+                            <th>Redovisad</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4">
+                                Laborationsresultat gällande Markus Girdland
+                            </td>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr>
+                            <td rowspan="3">
+                                1
+                            </td>
+                            <td>1.1 - 1.3</td>
+                            <td>Godkänd</td>
+                            <td>23 sep 2013</td>
+                        </tr>
+                        <tr>
+                            <td>1.4 - 1.6</td>
+                            <td>Godkänd</td>
+                            <td>23 sep 2013</td>
+                        </tr>
+                        <tr>
+                            <td>1.6 - 1.9</td>
+                            <td>Godkänd</td>
+                            <td>23 sep 2013</td>
+                        </tr>
+                    </tbody>
         
-        <h2>Webbteknisk Introduktion</h2>
-        <ul>
-            <li><a href="laborationer.html#Laboration-1">Laboration 1</a></li>
-        </ul>
+                </table>
+                
+                <h3 id="Laboration-1">Laboration 1</h3>                       <!-- Första Laboration -->
+                <p>Uppgifter:</p>
+                <ul>
+                    <li>Frågor
+                    <ul>
+                        <li>1.4.1. Vilken är den absoluta sökvägen till filen bottom.html? - Det är https://www.server.se/html/pages/bottom.html</li>
+                        <li>1.4.2. Vilken är den relativa sökvägen från filen default.html till filen top.html? - Det är pages/top.html</li>
+                        <li>1.4.3. Vilken är den relativa sökvägen från filen bottom.html till filen index.html? - Det är ../index.html</li>
+                        <li>1.4.4. Vilken är den absoluta sökvägen till filen index.html? - Det är https://www.server.se/index.html</li>
+                        <li>1.4.5. Vilken är den relativa sökvägen från filen top.html till bottom.html? - Det är bottom.html</li>
+                        <li>1.4.6. Vilken är den relativa sökvägen från filen index.html till top.html? - Det är html/pages/top.html</li>
+                    </ul>
+                    </li>
+                    <li>www-katalog. Check</li>
+                    <li><a href="https://c9.io/markusgirdland/1ik415-mg222pi-laborationer/workspace/Index.html#Videoklipp">Ett första dokument</a></li>
         
-        <h3 id="Tabellen">Resultat</h3>         <!-- Tabell -->
-        
-        <table border='1'>
-            <thead>
-                <tr>
-                    <th>Laboration</th>
-                    <th>Uppgift</th>
-                    <th>Status</th>
-                    <th>Redovisad</th>
-                </tr>
-            </thead>
-            <tfoot>
-                <tr>
-                    <td colspan="4">
-                        Laborationsresultat gällande Markus Girdland
-                    </td>
-                </tr>
-            </tfoot>
-            <tbody>
-                <tr>
-                    <td rowspan="3">
-                        1
-                    </td>
-                    <td>1.1 - 1.3</td>
-                    <td>Klar</td>
-                    <td>Nej</td>
-                </tr>
-                <tr>
-                    <td>1.4 - 1.6</td>
-                    <td>Klar</td>
-                    <td>Nej</td>
-                </tr>
-                <tr>
-                    <td>1.6 - 1.9</td>
-                    <td>Klar</td>
-                    <td>Nej</td>
-                </tr>
-            </tbody>
-
-        </table>
-        
-        <h3 id="Laboration-1">Laboration 1</h3>                       <!-- Första Laboration -->
-        <p>Uppgifter:</p>
-        <ul>
-            <li>Frågor
-            <ul>
-                <li>1.4.1. Vilken är den absoluta sökvägen till filen bottom.html? - Det är https://www.server.se/html/pages/bottom.html</li>
-                <li>1.4.2. Vilken är den relativa sökvägen från filen default.html till filen top.html? - Det är pages/top.html</li>
-                <li>1.4.3. Vilken är den relativa sökvägen från filen bottom.html till filen index.html? - Det är ../index.html</li>
-                <li>1.4.4. Vilken är den absoluta sökvägen till filen index.html? - Det är https://www.server.se/index.html</li>
-                <li>1.4.5. Vilken är den relativa sökvägen från filen top.html till bottom.html? - Det är bottom.html</li>
-                <li>1.4.6. Vilken är den relativa sökvägen från filen index.html till top.html? - Det är html/pages/top.html</li>
-            </ul>
-            </li>
-            <li>www-katalog. Check</li>
-            <li><a href="https://c9.io/markusgirdland/1ik415-mg222pi-laborationer/workspace/Index.html#Videoklipp">Ett första dokument</a></li>
-
-            <li>Frågor jag ännu inte förstår, jobbar på det.</li>  
-            <li>Länkar och listor</li>
-            <li>Bilder
-            <ul>
-                <li><a href="../Index.html#Logga">Logotyp</a></li>
-                <li><a href="presentation.html#selfie">Bild på mig</a></li>
-                <li><a href="../Index.html#Vektor">Vektor</a></li>
-            </ul>
-            </li>
-            <li><a href="../Index.html#Videoklipp">Video</a></li>
-        </ul>
-        
+                    <li>Frågor jag ännu inte förstår, jobbar på det.</li>  
+                    <li>Länkar och listor</li>
+                    <li>Bilder
+                    <ul>
+                        <li><a href="../Index.html#Logga">Logotyp</a></li>
+                        <li><a href="presentation.html#selfie">Bild på mig</a></li>
+                        <li><a href="../Index.html#Vektor">Vektor</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="../Index.html#Videoklipp">Video</a></li>
+                </ul>
+            </div>
+        </div>
     </body>
 </html>

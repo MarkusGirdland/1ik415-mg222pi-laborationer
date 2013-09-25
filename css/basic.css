@@ -1,0 +1,27 @@
+/* Layout */
+
+#navigation {
+    border: 2px solid blue;
+    width: 200px;
+    float: left;
+}
+
+#content {
+    border: 2px solid red;
+    margin-left: 204px;
+    width: 75%;
+}
+
+#container {
+    background-color: #CCC;
+    overflow: auto;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#top {
+    float: middle;
+}
+
+
+/* Typografi */

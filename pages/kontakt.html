@@ -4,54 +4,60 @@
             
         <meta charset="utf-8"/>
         <title>Markus Girdland Kontakt</title>
+        <link rel="Stylesheet" href="../css/basic.css" />
             
     </head>
     
     <body>
-        <h1>Kontakt</h1>
-        <h3>Navigering</h3>
-        <ul>
-            <li><a href="../Index.html">Start</a></li>
-            <li><a href="presentation.html">Presentation</a></li>
-            <li><a href="laborationer.html">Laborationer</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
-        
-        <h2 id="Formulär">Formulär</h2>
-        
-        <h3 id="Kontakt">Kontakta mig!</h3>
-        
-        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST" id="userform">
-            <fieldset>
-                <legend>Allmän Information</legend>
-                    <label for="typeOfErrand" >Ärendetyp</label>
-                        <select name="Type" id="typeOfErrand">
-                            <option value="Fråga" selected>Fråga</option>
-                            <option value="Förslag">Förslag</option>
-                            <option value="Rapportera fel">Rapportera fel</option>
-                        </select>
-                        <br />
-                        <br />
-                    <label>Kön:</label>
-                        <input type="radio" name="Sex" value="M" /> Man
-                        <input type="radio" name="Sex" value="F" /> Kvinna
-            </fieldset>
-            <fieldset>
-                <legend>Personlig Information</legend>
-                    <p>Vad är ditt namn?</p> 
-                    <input type="text" name="Name" />
-                    <p>Vad vill du meddela mig?</p>
-                    <textarea name="message" rows="5" cols="30" form="userform">Skriv ditt meddelande. . .</textarea>
-            </fieldset>    
+        <div id="container" />
+            <div id="top">
+                <h1>Kontakt</h1>
+            </div>
             
+            <div id="navigation">
+                <h3>Navigering</h3>
+                <ul>
+                    <li><a href="../Index.html">Start</a></li>
+                    <li><a href="presentation.html">Presentation</a></li>
+                    <li><a href="laborationer.html">Laborationer</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
             
-            
-            <input type="submit" value="Skicka!" />
-            
-        </form>
-        
-        
-        
-        
+            <div id="content">
+                <h2 id="Formulär">Formulär</h2>
+                
+                <h3 id="Kontakt">Kontakta mig!</h3>
+                
+                <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST" id="userform">
+                    <fieldset>
+                        <legend>Allmän Information</legend>
+                            <label for="typeOfErrand" >Ärendetyp</label>
+                                <select name="Type" id="typeOfErrand">
+                                    <option value="Fråga" selected>Fråga</option>
+                                    <option value="Förslag">Förslag</option>
+                                    <option value="Rapportera fel">Rapportera fel</option>
+                                </select>
+                                <br />
+                                <br />
+                            <label>Kön:</label>
+                                <input type="radio" name="Sex" value="M" /> Man
+                                <input type="radio" name="Sex" value="F" /> Kvinna
+                    </fieldset>
+                    <fieldset>
+                        <legend>Personlig Information</legend>
+                            <p>Vad är ditt namn?</p> 
+                            <input type="text" name="Name" />
+                            <p>Vad vill du meddela mig?</p>
+                            <textarea name="message" rows="5" cols="30" form="userform">Skriv ditt meddelande. . .</textarea>
+                    </fieldset>    
+                    
+                    
+                    
+                    <input type="submit" value="Skicka!" />
+                    
+                </form>
+            </div>
+        </div>
     </body>
 </html>
