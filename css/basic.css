@@ -19,8 +19,9 @@
     display: block;
     padding: 10px;
     background-color: rgba(166, 141, 47, 0.6);
-    color: blue;
+    color: #776EB1;
     text-align: left;
+    font-family: "Verdana", "Arial", fantasy;
 }
 
 #aTaggA:hover {
@@ -28,15 +29,21 @@
     padding: 10px;
     background-color: rgba(191, 178, 129, 0.7);
     color: red;
-    font: "Verdana";
 }
 
 #aTaggB {
     display: block;
     padding: 10px;
     background-color: rgba(166, 141, 47, 0.6);
-    color: blue;
+    color: #776EB1;
     text-align: left;
+    font-family: "Verdana", "Arial", fantasy;
+}
+
+#selfie {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #aTaggB:hover {
@@ -50,8 +57,9 @@
     display: block;
     padding: 10px;
     background-color: rgba(166, 141, 47, 0.6);
-    color: blue;
+    color: #776EB1;
     text-align: left;
+    font-family: "Verdana", "Arial", fantasy;
 }
 
 #aTaggC:hover {
@@ -65,8 +73,9 @@
     display: block;
     padding: 10px;
     background-color: rgba(166, 141, 47, 0.6);
-    color: blue;
+    color: #776EB1;
     text-align: left;
+    font-family: "Verdana", "Arial", fantasy;
 }
 
 #aTaggD:hover {
@@ -85,8 +94,9 @@
     display: block;
     padding: 10px;
     background-color: rgba(191, 178, 129, 0.7);
-    color: red;
+    color: #776EB1;
     text-align: left;
+    font-family: "Verdana", "Arial", fantasy;
 }
 
 
@@ -123,6 +133,46 @@
 
 
 /* Typografi */
+
+h1 {
+    font-family: "Verdana", "Arial", fantasy;
+}
+
+h2 {
+    font-family: "Verdana", "Arial", fantasy;
+}
+
+h3 {
+    font-family: "Verdana", "Arial", fantasy;
+}
+
+h4 {
+    font-family: "Verdana", "Arial", fantasy;
+}
+
+p {
+    font-family: "Calibri", "Arial", fantasy;
+}
+
+ul {
+    font-family: "Calibri", "Arial", fantasy;
+}
+
+ol {
+    font-family: "Calibri", "Arial", fantasy;
+}
+
+dl {
+    font-family: "Calibri", "Arial", fantasy;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link { color: blue; }
+a:visited { color: red; }
+a:hover { color: green; }
 
 /* Färger
 
