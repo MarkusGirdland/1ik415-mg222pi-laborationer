@@ -164,6 +164,7 @@ ol {
 
 dl {
     font-family: "Calibri", "Arial", fantasy;
+    text-decoration: none;
 }
 
 a {
