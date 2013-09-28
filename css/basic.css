@@ -44,6 +44,11 @@
 
 /* Blogg */
 
+.whoAndWhen {
+    text-align: right;
+    font-family:"Palatino Linotype", Palatino, cursive;
+}
+
 .right {
     float: right;
     padding: 10px;
