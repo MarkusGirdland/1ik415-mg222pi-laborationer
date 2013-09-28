@@ -42,7 +42,12 @@
     padding-bottom: 15px;
 }
 
+/* Blogg */
 
+.right {
+    float: right;
+    padding: 10px;
+}
 
 .blogPost {
     background-image: url(pics/blogPost2.png);          /* Blogg bilden */
@@ -50,6 +55,7 @@
     padding-left: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
+    border-bottom: 1px solid black;
 }
 
 /* Menyn */
