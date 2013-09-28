@@ -15,8 +15,27 @@
     padding: 0;
 }
 
+#top {
+    background: rgba(191, 178, 129, 0.5);
+}
+
+#container {
+    overflow: auto;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#content {
+    border: 2px solid rgba(191, 178, 129, 0.8);
+    margin-left: 220px;
+    width: 75%;
+    background: rgba(255, 232, 144, 0.4);
+    padding: 5px;
+}
+
+
 #headOne {
-    background-image: url(pics/HelloBro2.png);
+    background-image: url(pics/HelloBro2.png);          /* Gubben i headern */
     background-repeat: no-repeat;
     padding-left: 65px;
     padding-top: 15px;
@@ -26,13 +45,14 @@
 
 
 .blogPost {
-    background-image: url(pics/blogPost2.png);
+    background-image: url(pics/blogPost2.png);          /* Blogg bilden */
     background-repeat: no-repeat;
     padding-left: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
+/* Menyn */
 
 #aTaggA {
     display: block;
@@ -57,12 +77,6 @@
     color: #776EB1;
     text-align: left;
     font-family: "Verdana", "Arial", fantasy;
-}
-
-#selfie {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #aTaggB:hover {
@@ -118,8 +132,6 @@
     font-family: "Verdana", "Arial", fantasy;
 }
 
-
-
 #box {
     padding-top: 10px;
     padding-right: 5px;
@@ -132,23 +144,18 @@
     margin-left: 4px;
 }
 
-#content {
-    border: 2px solid rgba(191, 178, 129, 0.8);
-    margin-left: 220px;
-    width: 75%;
-    background: rgba(255, 232, 144, 0.4);
-    padding: 5px;
+/* Slut på lista */
+
+
+#selfie {                   /* Bild på mig */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#container {
-    overflow: auto;
-    max-width: 960px;
-    margin: 0 auto;
-}
 
-#top {
-    background: rgba(191, 178, 129, 0.5);
-}
+
+
 
 
 /* Typografi */
