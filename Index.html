@@ -4,6 +4,7 @@
             
             <meta charset="utf-8"/>
             <link rel="Stylesheet" href="css/basic.css" />
+        <!--    <link rel="Stylesheet" href="css/print.css" media="print" /> -->
             <title>Markus Girdlands Blogg</title>
             
     </head>
@@ -11,7 +12,7 @@
     <body>
         <div id="container">
             <div id="top">
-                <img id="Logga" src="pics/loggo.png" alt="Kunde inte visa bild" width="960" height="180">
+                <img id="Logga" class="picture" src="pics/loggo.png" alt="Kunde inte visa bild" width="960" height="180">
             
                 <h1 id="headOne">Min Blogg, Välkommen!</h1>
             </div>
@@ -65,7 +66,7 @@
                 <h3 id="Vektor" class="blogPost">Vektorbild</h3>
                 <p>Endast för att testa så gör jag världens fulaste vektorbild och hoppas att den fungerar!</p>
                 
-                <img src="pics/vektor.svg" alt="Kunde inte visa bild">
+                <img src="pics/vektor.svg" class="picture" alt="Kunde inte visa bild">
                 
                 <p class="whoAndWhen">Skrivet 21 sep 2013 av Markus Girdland</p>
                 
@@ -76,11 +77,13 @@
                     kunna spela upp det på denna hemsida.
                         
                 </p>
-                    <video height="480" width="360" src="videos/trailer_720p.mov" controls><p>Din webbläsare stödjer inte <code>video</code>-taggen</p>
+                    <video id="myVideo" height="480" width="360" src="videos/trailer_720p.mov" controls><p>Din webbläsare stödjer inte <code>video</code>-taggen</p>
                     </video>
-                    
+                                            <!-- Om den ska printas eller inte -->
                     <p>
-                        Tack till <a target="_blank" href="http://www.bigbuckbunny.org/">Big Buck Bunny</a><br /><br />
+                        Tack till   <a class="printLink" target="_blank" href="http://www.bigbuckbunny.org/">Big Buck Bunny (http://www.bigbuckbunny.org/)</a>
+                                    <a class="noPrint" target="_blank" href="http://www.bigbuckbunny.org/">Big Buck Bunny</a>
+                        <br /><br />
                     </p>
                     <p class="whoAndWhen">Skrivet 21 sep 2013 av Markus Girdland</p>
                 

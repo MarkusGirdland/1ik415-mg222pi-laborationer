@@ -67,6 +67,10 @@
     padding-bottom: 15px;
 }
 
+.printLink {
+    display: none;
+}
+
 /* Blogg */
 
 .whoAndWhen {
@@ -231,6 +235,86 @@ a {
 a:link { color: blue; }
 a:visited { color: red; }
 a:hover { color: green; }
+
+ @media print {
+    p {
+        font-family: "Times" , "Serif", fantasy;
+    }
+    
+    h1 {
+        font-family: "Times" , "Serif", fantasy;
+    }
+    
+    h2 {
+        font-family: "Times" , "Serif", fantasy;
+    }
+    
+    h3 {
+        font-family: "Times" , "Serif", fantasy;
+    }
+    
+    h4 {
+        font-family: "Times" , "Serif", fantasy;
+    }
+    
+    
+    #navigation {
+        display: none;
+    }
+    
+    #container {
+        margin: 0;
+        width: 100%;
+    }
+    
+    #content {
+        margin: 0;
+        width: 95%;
+        border: 0px;
+    }
+    
+    #bloggHead {
+        border-bottom: 0px;
+    }
+    
+    .blogPost {
+        border-bottom: 0px;
+    }
+    
+    #myVideo {
+        display: none;
+    }
+    
+    .picture{
+        width: 300px;
+        height: 300px;
+    }
+    
+    #Logga {
+        height: 100px;
+        width: 600px;
+    }
+    
+    .printLink {
+        display: block;
+        content: (http://www.hattrick.org/)";
+    }
+    
+    .noPrint {
+        display: none;
+    }
+    
+    a { text-decoration: none; }
+    a:link { color: blue; }
+    a:visited { color: blue; }
+    
+}
+    
+    
+    
+
+    
+
 
 /* Färger
 
