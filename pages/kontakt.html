@@ -34,9 +34,9 @@
                 <h3 id="Kontakt">Kontakta mig!</h3>
                 
                 <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST" id="userform">
-                    <fieldset>
-                        <legend>Allmän Information</legend>
-                            <label for="typeOfErrand" >Ärendetyp</label>
+                    <fieldset class = "formBox">
+                        <legend class="legendHeader">Allmän Information</legend>
+                            <label class="formQuestion" for="typeOfErrand" >Ärendetyp:</label>
                                 <select name="Type" id="typeOfErrand">
                                     <option value="Fråga" selected>Fråga</option>
                                     <option value="Förslag">Förslag</option>
@@ -44,21 +44,22 @@
                                 </select>
                                 <br />
                                 <br />
-                            <label>Kön:</label>
+                            <label class="formQuestion">Kön:</label>
                                 <input type="radio" name="Sex" value="M" /> Man
                                 <input type="radio" name="Sex" value="F" /> Kvinna
                     </fieldset>
-                    <fieldset>
-                        <legend>Personlig Information</legend>
-                            <p>Vad är ditt namn?</p> 
+                
+                    <fieldset class="formBox">
+                        <legend class="legendHeader">Personlig Information</legend>
+                            <p class="formQuestion">Vad är ditt namn?</p> 
                             <input type="text" name="Name" />
-                            <p>Vad vill du meddela mig?</p>
+                            <p class="formQuestion">Vad vill du meddela mig?</p>
                             <textarea name="message" rows="5" cols="30" form="userform">Skriv ditt meddelande. . .</textarea>
-                    </fieldset>    
+                    </fieldset> 
                     
                     
                     
-                    <input type="submit" value="Skicka!" />
+                    <input id="sendButton" type="submit" value="Skicka!" />
                     
                 </form>
             </div>

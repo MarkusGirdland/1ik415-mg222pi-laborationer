@@ -153,6 +153,42 @@
     margin-right: auto;
 }
 
+/* Kontaktformulär */
+
+#userform {
+    font-family: "Calibri", "Arial", fantasy;
+}
+
+.legendHeader {
+    color: #776EB1;
+    font-weight: bold;
+}
+
+.formQuestion {
+    color: #776EB1;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+#typeOfErrand {
+    margin: 10px;
+}
+
+.formBox {
+    border: 2px solid rgba(166, 141, 47, 1);
+    margin: 20px;
+}
+
+#sendButton {
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 8px;
+    color: #776EB1;
+    font-weight: bold;
+    border: 2px solid rgba(166, 141, 47, 1);
+    background-color: rgba(191, 178, 129, 0.7);
+}
+
 /* Typografi */
 
 h1 {
