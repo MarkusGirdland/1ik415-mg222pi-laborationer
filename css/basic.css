@@ -15,12 +15,46 @@
     padding: 0;
 }
 
-#meny a{
+#spritePresentation { 
+    background-position: 0 -240px;
+}
+
+#spritePresentation:hover {
+    background-position: 0 -192px;
+}
+
+#spriteLaborationer {
+    background-position: 0 -144px;
+}
+
+#spriteLaborationer:hover {
+    background-position: 0 -96px;
+}
+
+#spriteKontakt {
+    background-position: 0 -336px;
+}
+
+#spriteKontakt:hover {
+    background-position: 0 -288px;
+}
+
+#spriteStart {
+    background-position: 0 -48px;
+}
+
+#spriteStart:hover {
+    background-position: 0 0;
+}
+
+#meny a {
+    background-image: url(pics/sprite.png);
+    background-repeat: no-repeat;
     display: block;
     padding: 10px;
     background-color: rgba(166, 141, 47, 0.6);
     color: #776EB1;
-    text-align: left;
+    text-align: center;
     font-family: "Verdana", "Arial", fantasy;
 }
 
@@ -29,7 +63,7 @@
     padding: 10px;
     background-color: rgba(191, 178, 129, 0.7);
     color: #776EB1;
-    text-align: left;
+    text-align: center;
     font-family: "Verdana", "Arial", fantasy;
 }
 
