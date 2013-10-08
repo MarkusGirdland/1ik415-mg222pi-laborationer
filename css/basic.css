@@ -15,64 +15,7 @@
     padding: 0;
 }
 
-#spritePresentation { 
-    background-position: 0 -240px;
-}
 
-#spritePresentation:hover {
-    background-position: 0 -192px;
-}
-
-#spriteLaborationer {
-    background-position: 0 -144px;
-}
-
-#spriteLaborationer:hover {
-    background-position: 0 -96px;
-}
-
-#spriteKontakt {
-    background-position: 0 -336px;
-}
-
-#spriteKontakt:hover {
-    background-position: 0 -288px;
-}
-
-#spriteStart {
-    background-position: 0 -48px;
-}
-
-#spriteStart:hover {
-    background-position: 0 0;
-}
-
-#meny a {
-    background-image: url(pics/sprite.png);
-    background-repeat: no-repeat;
-    display: block;
-    padding: 10px;
-    background-color: rgba(166, 141, 47, 0.6);
-    color: #776EB1;
-    text-align: center;
-    font-family: "Verdana", "Arial", fantasy;
-}
-
-#meny .active{
-    display: block;
-    padding: 10px;
-    background-color: rgba(191, 178, 129, 0.7);
-    color: #776EB1;
-    text-align: center;
-    font-family: "Verdana", "Arial", fantasy;
-}
-
-#meny a:hover{
-    display: block;
-    padding: 10px;
-    background-color: rgba(191, 178, 129, 0.7);
-    color: red;
-}
 
 #top {
     background: rgba(191, 178, 129, 0.5);
@@ -227,6 +170,74 @@
     background-color: rgba(191, 178, 129, 0.7);
 }
 
+/* Meny */
+
+#spritePresentation { 
+    background-position: 0 -240px;
+}
+
+#spritePresentation:hover {
+    background-position: 0 -192px;
+}
+
+#spriteLaborationer {
+    background-position: 0 -144px;
+}
+
+#spriteLaborationer:hover {
+    background-position: 0 -96px;
+}
+
+#spriteKontakt {
+    background-position: 0 -336px;
+}
+
+#spriteKontakt:hover {
+    background-position: 0 -288px;
+}
+
+#spriteStart {
+    background-position: 0 -48px;
+}
+
+#spriteStart:hover {
+    background-position: 0 0;
+}
+
+#meny a {
+    background-image: url(pics/sprite.png); 
+    background-repeat: no-repeat;
+    display: block;
+    padding: 10px;
+    background-color: rgba(166, 141, 47, 0.6);
+    color: #776EB1;
+    text-align: center;
+    font-family: "Verdana", "Arial", fantasy;
+}
+
+#meny .active{
+    display: block;
+    padding: 10px;
+    background-color: rgba(191, 178, 129, 0.7);
+    color: #776EB1;
+    text-align: center;
+    font-family: "Verdana", "Arial", fantasy;
+}
+
+#meny a:hover{
+    display: block;
+    padding: 10px;
+    background-color: rgba(191, 178, 129, 0.7);
+    color: red;
+}
+
+/* Bild och video */
+
+img, video {
+    max-width: 100%;
+}
+
+
 /* Typografi */
 
 h1 {
@@ -269,6 +280,44 @@ a {
 a:link { color: blue; }
 a:visited { color: red; }
 a:hover { color: green; }
+
+/* Mobila enheter */
+
+    @media only screen and (max-width:481px){
+        
+        #navigation {
+            border: 5px inset rgba(191, 178, 129, 0.7);
+            width: 100%;
+            float: left;
+            text-align: center
+        }
+        
+        #content {
+            border: 3px solid rgba(191, 178, 129, 0.8);
+            margin-left: 0px;
+            width: 100%;
+            background: rgba(255, 232, 144, 0.4);
+            padding: 7px;
+        }
+        
+        #meny a {
+    background-image: url(pics/sprite.png); 
+    background-repeat: no-repeat;
+    display: block;
+    padding: 10px;
+    background-color: rgba(166, 141, 47, 0.6);
+    color: #776EB1;
+    text-align: center;
+    font-family: "Verdana", "Arial", fantasy;
+    width: 100%;
+}
+        
+    
+    }
+    
+
+
+/* Print vänlig */
 
  @media print {
     p {
