@@ -281,33 +281,35 @@ a:link { color: blue; }
 a:visited { color: red; }
 a:hover { color: green; }
 
+
 /* Mobila enheter */
 
-    @media only screen and (max-width:481px){
-        
-        #navigation {
-            border: 0px;
-            width: 90%;
-            float: left;
-            text-align: center
-        }
-        
-        #content {
-            border: 3px solid rgba(191, 178, 129, 0.8);
-            margin-left: 0px;
-            width: 90%;
-            background: rgba(255, 232, 144, 0.4);
-            padding: 7px;
-        }
-        
-        #meny {
-            border: 1px solid black;
-            border-bottom: none;
-            width: 100%;
-            margin: 0;
-            margin-left: 10px;
-        }
+@media only screen and (max-width:481px){
+    #navigation {
+        border: 0px;
+        width: 90%;
+        float: left;
+        text-align: center
     }
+    
+    #content {
+        border: 3px solid rgba(191, 178, 129, 0.8);
+        margin-left: 0px;
+        width: 90%;
+        background: rgba(255, 232, 144, 0.4);
+        padding: 7px;
+    }
+    
+    #meny {
+        border: 1px solid black;
+        border-bottom: none;
+        width: 100%;
+        margin: 0;
+        margin-left: 10px;
+    }
+}
+
+
     
 
 
