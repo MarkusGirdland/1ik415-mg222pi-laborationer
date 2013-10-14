@@ -59,7 +59,7 @@ main {
     display: block; 
 	width: inherit; 
 }
-
+                                                                        /* Hittat guide på www.paulund.co.uk/create-polaroid-image-with-css */
 #images a {
     position: relative;
     background: white; 
@@ -79,6 +79,27 @@ main {
 	-webkit-transform: rotate(5deg);  
 	-moz-transform: rotate(5deg); 
 	transform: rotate(5deg); 
+}
+
+#images a:after {
+    color: black;
+	font-size: 20px;
+	content: attr(title);
+	position: relative;
+	top:15px;
+}
+
+#images a:nth-child(3n)
+{
+	-webkit-transform: rotate(-10deg);  
+	-moz-transform: rotate(-10deg); 
+	transform: rotate(-10deg); 
+}
+
+#images a:nth-child(5n) { 
+	-webkit-transform: rotate(15deg);  
+	-moz-transform: rotate(15deg); 
+	transform: rotate(15deg); 
 }
 
 
