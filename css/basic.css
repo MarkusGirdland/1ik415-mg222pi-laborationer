@@ -1,6 +1,6 @@
 /* Layout */
 
-#navigation {
+nav {
     border: 5px inset rgba(191, 178, 129, 0.7);
     width: 200px;
     float: left;
@@ -17,7 +17,7 @@
 
 
 
-#top {
+header {
     background: rgba(191, 178, 129, 0.5);
 }
 
@@ -27,7 +27,7 @@
     margin: 0 auto;
 }
 
-#content {
+main {
     border: 3px solid rgba(191, 178, 129, 0.8);
     margin-left: 220px;
     width: 75%;
@@ -53,6 +53,16 @@
 .whoAndWhen {
     text-align: right;
     font-family:"Palatino Linotype", Palatino, cursive;
+}
+
+#comment {
+    padding-left: 15px;
+    border-top: 1px dashed rgba(191, 178, 129, 0.8);
+}
+
+aside p {
+    font-family: "Courier New", "Arial", cursive;
+    font-size: 12px;
 }
 
 .right {
@@ -353,10 +363,6 @@ a:hover { color: green; }
     }
     
     #bloggHead {
-        border-bottom: 0px;
-    }
-    
-    .blogPost {
         border-bottom: 0px;
     }
     

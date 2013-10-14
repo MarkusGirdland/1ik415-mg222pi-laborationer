@@ -14,13 +14,13 @@
     
     <body>
         <div id="container">
-            <div id="top">
+            <header>
                 <h1>Kontakt</h1>
-            </div>
+            </header>
             
             <!-- Menyn -->
             
-            <div id="navigation">
+            <nav>
                 <h3>Navigering</h3>
                     <ul id="meny">
                         <li class="lista"><a id="spriteStart" href="../Index.html">Start</a></li>
@@ -28,12 +28,27 @@
                         <li class="lista"><a id="spriteLaborationer" href="laborationer.html">Laborationer</a></li>
                         <li class="lista"><a id="spriteKontakt" class="active" href="kontakt.html">Kontakt</a></li>
                     </ul>
-            </div>
+            </nav>
             
             <!-- Formuläret -->
             
-            <div id="content">
+            <main>
                 <h2 id="Formulär">Formulär</h2>
+                
+                <h3 id="hCard">Kontaktuppgifter</h3>
+                    <div id="hcard-Markus-Girdland" class="vcard">
+                         <span class="fn">Markus Girdland</span>
+                         <div class="org">Student</div>
+                         <div class="adr">
+                          <span class="locality">Kalmar</span>
+                        , 
+                          <span class="postal-code">39238</span>
+                        
+                          <span class="country-name">Sweden</span>
+                    </div>
+                        <p style="font-size:smaller;">This <a href="http://microformats.org/wiki/hcard">hCard</a> created with the <a href="http://microformats.org/code/hcard/creator">hCard creator</a>.</p>
+                        </div>
+                
                 
                 <h3 id="Kontakt">Kontakta mig!</h3>
                 
@@ -66,7 +81,7 @@
                     <input id="sendButton" type="submit" value="Skicka!" />
                     
                 </form>
-            </div>
+            </main>
         </div>
     </body>
 </html>
