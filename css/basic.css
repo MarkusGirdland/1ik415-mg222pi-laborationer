@@ -83,10 +83,12 @@ main {
 
 #images a:after {
     color: black;
+    font-family: "handwritten";
 	font-size: 20px;
 	content: attr(title);
 	position: relative;
 	top:15px;
+
 }
 
 #images a:nth-child(3n)
@@ -102,6 +104,23 @@ main {
 	transform: rotate(15deg); 
 }
 
+#images a:hover{
+	-webkit-transform: rotate(0deg);  /* Rotera till 0 grader */
+	-moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+	-webkit-transform: scale(1.5); /* Skala upp den */
+	-moz-transform: scale(1.5);
+    transform: scale(1.5);
+	z-index:10;                     /* Lägg den över dom andra i Z-index */
+	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);      /* Bleka ut skuggan */
+	-moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
+    box-shadow: 0 10px 20px rgba(0,0,0,.7);
+}
+
+@font-face {
+    font-family: handwritten;
+    src: url(../gallery/JennaSue.ttf);
+}
 
 
 
