@@ -374,19 +374,10 @@ a:hover { color: green; }
         width: 600px;
     }
     
-    .printLink {
-        display: block;
-        content: (http://www.hattrick.org/)";
-    }
-    
-    .noPrint {
-        display: none;
-    }
-    
+    a[href^="http://"]:after { content: " (" attr(href) ") "; }
     a { text-decoration: none; }
     a:link { color: blue; }
     a:visited { color: blue; }
-    
 }
     
     
