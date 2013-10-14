@@ -29,6 +29,10 @@ header {
 
 #galleryContainer {
     padding: 150px;
+    background-position: center center;
+    background-image: url(../gallery/grass_bg.jpg);
+    background-repeat: repeat;
+    overflow: auto;
 }
 
 main {
