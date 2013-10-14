@@ -113,7 +113,20 @@ main {
 	transform: rotate(15deg); 
 }
 
-#images a:hover{
+#images a:hover {
+	-webkit-transform: rotate(0deg);  /* Rotera till 0 grader */
+	-moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+	-webkit-transform: scale(1.5); /* Skala upp den */
+	-moz-transform: scale(1.5);
+    transform: scale(1.5);
+	z-index:10;                     /* Lägg den över dom andra i Z-index */
+	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);      /* Bleka ut skuggan */
+	-moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
+    box-shadow: 0 10px 20px rgba(0,0,0,.7);
+}
+
+#images a:focus {
 	-webkit-transform: rotate(0deg);  /* Rotera till 0 grader */
 	-moz-transform: rotate(0deg);
     transform: rotate(0deg);
